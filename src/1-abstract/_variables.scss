@@ -1,5 +1,5 @@
 /*! Typography - Family */
-$font-family: Arial, sans-serif;
+$font-family: 'Fira Sans', Arial, sans-serif;
 
 /*! Typography - Size */
 $body-root-font-size: 16px;
@@ -28,7 +28,7 @@ $theme-typography-weights: (
 
 /*! Color - Brand */
 $theme-brand-colors: (
-  'primary': #1068eb,
+  'primary': #00b5e2,
   'secondary': #303d60,
   'primary-hover': #295fd6,
   'primary-selected': rgba(20, 110, 245, 0.12),
