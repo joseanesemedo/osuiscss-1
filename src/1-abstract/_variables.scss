@@ -26,6 +26,19 @@ $theme-typography-weights: (
   'bold': 700
 );
 
+/*! Typography - Line Height */
+$theme-line-height: (
+  'h1': 0px,
+  'h2': 35px,
+  'h3': 0px,
+  'h4': 27px,
+  'h5': 0px,
+  'h6': 0px,
+  'base': 24px,
+  's': 21px,
+  'xs': 18px
+);
+
 /*! Color - Brand */
 $theme-brand-colors: (
   'primary': #00b5e2,
