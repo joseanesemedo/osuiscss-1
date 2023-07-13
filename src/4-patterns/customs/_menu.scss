@@ -2,16 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 12px var(--space-xl) var(--space-none) var(--space-xl);
 
-  &__logo {
-  }
+  //   &__logo {
+  //   }
 
   &__nav {
     .button-group {
-      border: none;
+      &-item {
+        border: none;
+        white-space: nowrap;
+        font-size: var(--font-size-s);
+        color: var(--neutral-neutral-8);
+        font-weight: var(--font-regular);
+      }
+
+      &-selected-item {
+        font-weight: var(--font-bold);
+        background: var(--color-neutral-4);
+        border-radius: var(--border-radius-medium);
+      }
     }
   }
 
-  &__userinfo {
-  }
+  //   &__userinfo {
+  //   }
 }
