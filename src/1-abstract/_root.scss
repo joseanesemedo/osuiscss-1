@@ -9,6 +9,11 @@
     --font-#{$i}: #{$value};
   }
 
+  /*! Typography - Line-Height */
+  @each $i, $value in $theme-line-height {
+    --line-height-#{$i}: #{$value};
+  }
+
   /*! Typography - Family */
   --font-family: #{$font-family};
 
