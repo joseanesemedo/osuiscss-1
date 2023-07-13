@@ -1,0 +1,16 @@
+.layout-top-menu {
+  --menu-height: 56px;
+  padding-top: var(--menu-height);
+
+  &__menu {
+    background: var(--color-neutral-0);
+    height: var(--menu-height);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  &__content {
+  }
+}
