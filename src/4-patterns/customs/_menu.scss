@@ -1,0 +1,17 @@
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+  }
+
+  &__nav {
+    .button-group {
+      border: none;
+    }
+  }
+
+  &__userinfo {
+  }
+}
