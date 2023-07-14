@@ -11,12 +11,13 @@
         font-size: var(--font-size-s);
         font-weight: var(--font-regular);
         white-space: nowrap;
-      }
 
-      &-selected-item {
-        background: var(--color-neutral-4);
-        border-radius: var(--border-radius-medium);
-        font-weight: var(--font-bold);
+        &.button-group-selected-item {
+          background: var(--color-neutral-4);
+          border-radius: var(--border-radius-medium);
+          color: var(--neutral-neutral-8);
+          font-weight: var(--font-bold);
+        }
       }
     }
   }

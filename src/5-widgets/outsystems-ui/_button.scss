@@ -1,5 +1,18 @@
 .btn {
   &-info {
     background: var(--color-info);
+    color: var(--color-neutral-0);
+  }
+}
+
+.button-group {
+  &-item {
+    border-color: var(--color-info);
+    color: var(--color-info);
+
+    &.button-group-selected-item {
+      background: var(--color-info);
+      color: var(--color-neutral-0);
+    }
   }
 }

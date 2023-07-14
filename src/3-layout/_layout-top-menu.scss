@@ -8,8 +8,8 @@
     left: 0;
     position: fixed;
     padding: var(--space-s) var(--space-xl);
-
     top: 0;
     width: 100%;
+    z-index: 10;
   }
 }
