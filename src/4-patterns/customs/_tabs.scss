@@ -1,0 +1,12 @@
+.osui-tabs__header-item {
+  color: var(--color-neutral-7);
+
+  &.osui-tabs--is-active {
+    color: var(--color-info);
+    text-shadow: 0 0 0.5px currentColor;
+  }
+}
+
+.osui-tabs__header__indicator {
+  background-color: var(--color-pink);
+}

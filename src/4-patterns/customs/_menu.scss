@@ -11,20 +11,23 @@
     .button-group {
       &-item {
         border: none;
-        white-space: nowrap;
-        font-size: var(--font-size-s);
         color: var(--neutral-neutral-8);
+        font-size: var(--font-size-s);
         font-weight: var(--font-regular);
+        white-space: nowrap;
       }
 
       &-selected-item {
-        font-weight: var(--font-bold);
         background: var(--color-neutral-4);
         border-radius: var(--border-radius-medium);
+        font-weight: var(--font-bold);
       }
     }
   }
 
-  //   &__userinfo {
-  //   }
+  &__userinfo {
+    color: var(--neutral-neutral-8);
+    font-size: var(--font-size-s);
+    font-weight: var(--font-regular);
+  }
 }
