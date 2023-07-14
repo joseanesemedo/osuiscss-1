@@ -2,6 +2,13 @@
   &-info {
     background: var(--color-info);
     color: var(--color-neutral-0);
+    white-space: nowrap;
+
+    .icon {
+      font-size: var(--font-size-s);
+      font-weight: var(--font-light);
+      margin-right: var(--space-s);
+    }
   }
 }
 
