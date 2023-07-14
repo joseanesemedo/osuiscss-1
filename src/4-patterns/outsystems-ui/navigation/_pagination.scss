@@ -1,0 +1,8 @@
+.pagination-button {
+  border: var(--border-size-none);
+
+  &.is--active {
+    border: var(--border-size-s) solid var(--color-info);
+    color: var(--color-info);
+  }
+}

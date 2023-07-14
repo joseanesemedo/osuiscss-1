@@ -25,5 +25,13 @@
     td {
       border-bottom: var(--border-size-none);
     }
+
+    &:hover {
+      td {
+        background: var(--color-neutral-2);
+        border-radius: var(--border-radius-medium) var(--border-radius-none)
+          var(--border-radius-none) var(--border-radius-medium);
+      }
+    }
   }
 }
