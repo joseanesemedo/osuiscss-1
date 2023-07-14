@@ -1,0 +1,12 @@
+.layout-side-bar {
+  display: flex;
+
+  &__sidebar {
+    min-width: 272px;
+  }
+
+  &__content {
+    width: 100%;
+    background: var(--color-neutral-0);
+  }
+}
