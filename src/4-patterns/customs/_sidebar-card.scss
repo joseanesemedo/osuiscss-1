@@ -1,0 +1,36 @@
+.sidebar-card {
+  align-items: center;
+  background-color: var(--color-neutral-0);
+  border: var(--border-size-s) solid var(--color-neutral-4);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--shadow-m);
+  display: flex;
+  gap: var(--space-xs);
+  padding: var(--space-m);
+  width: 310px;
+
+  &__info {
+    color: var(--color-info);
+  }
+  &__success {
+    color: var(--color-success);
+  }
+  &__warning {
+    color: var(--color-warning);
+  }
+
+  &__icon {
+    height: 100%;
+  }
+
+  &__content {
+    &__value {
+      font-size: var(--font-size-h2);
+      font-weight: var(--font-bold);
+    }
+    &__title {
+      font-size: var(--font-size-h4);
+      font-weight: var(--font-semi-bold);
+    }
+  }
+}
