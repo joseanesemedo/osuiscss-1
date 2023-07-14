@@ -1,12 +1,15 @@
 .layout-sidebar {
   display: flex;
+  // height: calc(100vh - var(--menu-height));
+  // overflow: hidden;
+  // margin-top: var(--menu-height);
 
   &__sidebar {
     min-width: 272px;
   }
 
   &__content {
-    width: 100%;
     background: var(--color-neutral-0);
+    flex-grow: 1;
   }
 }
