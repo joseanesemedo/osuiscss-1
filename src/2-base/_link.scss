@@ -1,0 +1,13 @@
+a {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: var(--color-neutral-9);
+  }
+
+  &:active,
+  &:hover {
+    text-decoration: none;
+    color: var(--color-primary);
+  }
+}
