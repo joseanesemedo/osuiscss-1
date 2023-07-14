@@ -1,0 +1,17 @@
+.table-search {
+  align-items: center;
+  background: var(--color-neutral-1);
+  border-radius: var(--border-radius-medium);
+  display: flex;
+  padding: var(--space-base);
+
+  &__search {
+    flex-grow: 1;
+    margin-right: var(--space-base);
+  }
+
+  &__actions {
+    align-items: center;
+    display: flex;
+  }
+}
