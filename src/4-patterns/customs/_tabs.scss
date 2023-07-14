@@ -4,9 +4,10 @@
   &.osui-tabs--is-active {
     color: var(--color-info);
     text-shadow: 0 0 0.5px currentColor;
+    font-weight: var(--font-semi-bold);
   }
 }
 
 .osui-tabs__header__indicator {
-  background-color: var(--color-pink);
+  background-color: var(--color-info);
 }
