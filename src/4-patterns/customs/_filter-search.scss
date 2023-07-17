@@ -19,5 +19,14 @@
   &__actions {
     align-items: center;
     border-left: var(--border-size-s) solid var(--color-neutral-4);
+    display: flex;
+    gap: var(--space-base);
+    height: 100%;
+    min-width: 160px;
+    padding-left: var(--space-m);
+
+    .icon {
+      font-size: var(--font-size-base);
+    }
   }
 }
