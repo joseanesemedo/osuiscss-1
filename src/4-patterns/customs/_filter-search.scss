@@ -1,0 +1,23 @@
+.filter-search {
+  --searchbar-height: 50px;
+
+  align-items: center;
+  background: var(--color-neutral-0);
+  border: var(--border-size-s) solid var(--color-neutral-4);
+  display: flex;
+  height: var(--searchbar-height);
+  padding: var(--space-none) var(--space-base);
+
+  &__search {
+    flex-grow: 1;
+
+    .form-control[data-input] {
+      border: var(--border-size-none);
+    }
+  }
+
+  &__actions {
+    align-items: center;
+    border-left: var(--border-size-s) solid var(--color-neutral-4);
+  }
+}
