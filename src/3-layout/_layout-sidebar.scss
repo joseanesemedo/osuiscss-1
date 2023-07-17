@@ -1,8 +1,7 @@
 .layout-sidebar {
   background: var(--color-neutral-0);
   display: flex;
-  // height: 100%;
-  height: calc(100vh - 56px);
+  height: calc(100vh - (var(--header-size) + var(--searchbar-height)));
   overflow: hidden;
 
   &__sidebar {
