@@ -1,0 +1,18 @@
+.map-tooltip {
+  &__title {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--space-s);
+  }
+
+  &__title,
+  &__content {
+    padding: var(--space-s);
+  }
+
+  &__footer {
+    border-top: var(--border-size-s) solid var(--color-neutral-5);
+    padding: var(--space-s) var(--space-none);
+    text-align: center;
+  }
+}

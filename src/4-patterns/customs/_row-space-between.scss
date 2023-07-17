@@ -1,0 +1,13 @@
+.row-space-between {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-xs);
+
+  &__left {
+    font-weight: var(--font-regular);
+  }
+
+  &__right {
+    font-weight: var(--font-bold);
+  }
+}
