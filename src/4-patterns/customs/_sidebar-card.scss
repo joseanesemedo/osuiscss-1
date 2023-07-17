@@ -8,7 +8,7 @@
   gap: var(--space-m);
   margin-bottom: var(--space-m);
   padding: var(--space-m);
-  min-width: 310px;
+  min-width: 268px;
 
   &__info {
     color: var(--color-info);
@@ -32,8 +32,9 @@
       font-weight: var(--font-bold);
       line-height: var(--line-height-h2);
     }
+
     &__title {
-      font-size: var(--font-size-h5);
+      font-size: var(--font-size-h4);
       font-weight: var(--font-semi-bold);
       line-height: var(--line-height-h4);
       white-space: nowrap;

@@ -1,11 +1,9 @@
 .layout-sidebar {
   background: var(--color-neutral-0);
   display: flex;
-  align-items: stretch;
-  // height: calc(100vh - var(--menu-height) - var(--searchbar-height));
-  // overflow: hidden;
-  // margin-top: var(--menu-height);
-  height: 100vh;
+  // height: 100%;
+  height: calc(100vh - 56px);
+  overflow: hidden;
 
   &__sidebar {
     display: flex;
