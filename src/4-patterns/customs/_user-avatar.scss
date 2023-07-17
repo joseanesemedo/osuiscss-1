@@ -1,0 +1,16 @@
+.user-avatar {
+  --avatar-height: 67px;
+
+  background: var(--color-neutral-0);
+  border-radius: var(--border-radius-circle);
+  height: var(--avatar-height);
+  padding: var(--space-xs);
+  width: var(--avatar-height);
+
+  &__avatar {
+    img {
+      border-radius: var(--border-radius-circle);
+      height: 100%;
+    }
+  }
+}
