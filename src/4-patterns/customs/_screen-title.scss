@@ -12,13 +12,10 @@
     font-size: var(--font-size-s);
     gap: var(--space-s);
 
-    .icon {
-      font-size: var(--font-size-s);
-    }
-
     &__page,
     .icon {
       color: var(--color-info);
+      font-size: var(--font-size-s);
     }
 
     &__subtitle {
