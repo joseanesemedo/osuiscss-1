@@ -1,0 +1,20 @@
+.technician-row {
+  align-items: center;
+  display: flex;
+  gap: var(--space-s);
+
+  &__pic {
+    border-radius: var(--border-radius-circle);
+    height: var(--space-l);
+    width: var(--space-l);
+
+    img {
+      border-radius: var(--border-radius-circle);
+      height: 100%;
+    }
+  }
+
+  &__name {
+    font-size: var(--font-size-s);
+  }
+}
