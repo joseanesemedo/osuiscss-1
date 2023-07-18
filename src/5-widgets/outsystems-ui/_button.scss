@@ -1,14 +1,20 @@
 .btn {
-  &-info {
+  white-space: nowrap;
+
+  .icon {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-light);
+    margin-right: var(--space-s);
+  }
+
+  &-primary {
     background: var(--color-info);
     color: var(--color-neutral-0);
-    white-space: nowrap;
+  }
 
-    .icon {
-      font-size: var(--font-size-s);
-      font-weight: var(--font-light);
-      margin-right: var(--space-s);
-    }
+  &-secondary {
+    border: var(--border-size-s) solid var(--color-info);
+    color: var(--color-info);
   }
 }
 
