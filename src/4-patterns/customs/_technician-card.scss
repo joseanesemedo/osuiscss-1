@@ -1,0 +1,50 @@
+.technician-card {
+  align-items: center;
+  background: var(--color-neutral-0);
+  border-radius: var(--border-radius-soft);
+  display: flex;
+  gap: var(--space-base);
+  margin-bottom: var(--space-s);
+  padding: var(--space-base);
+  width: 200px;
+  white-space: nowrap;
+
+  &__pic {
+    border-radius: var(--border-radius-circle);
+    height: var(--space-xl);
+    width: var(--space-xl);
+
+    img {
+      border-radius: var(--border-radius-circle);
+      height: 100%;
+    }
+  }
+
+  &__info {
+    &__name {
+      font-size: var(--font-size-s);
+      font-weight: var(--font-bold);
+    }
+    &__phone {
+      align-items: center;
+      color: var(--color-info);
+      display: flex;
+      font-size: var(--font-size-xs);
+      gap: var(--space-xs);
+
+      .icon {
+        font-size: var(--font-size-s);
+      }
+
+      .phone-number {
+        a {
+          &:active,
+          a:link {
+            color: var(--color-info);
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
