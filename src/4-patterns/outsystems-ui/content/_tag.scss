@@ -1,0 +1,8 @@
+.tag {
+  &__secondary {
+    background: var(--color-info-light);
+    border: var(--border-size-s) solid var(--color-primary);
+    color: var(--color-primary);
+    font-weight: var(--font-bold);
+  }
+}
