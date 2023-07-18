@@ -4,18 +4,4 @@
   &__title {
     color: var(--color-neutral-9);
   }
-
-  &__status {
-    &-repair {
-      color: var(--color-orange-darkest);
-    }
-
-    &-installation {
-      color: var(--color-cyan-darkest);
-    }
-
-    &-upgrade {
-      color: var(--color-lime-darkest);
-    }
-  }
 }
