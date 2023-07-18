@@ -1,0 +1,28 @@
+.screen-title {
+  margin-bottom: var(--space-base);
+
+  &__title {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-bold);
+  }
+
+  &__info {
+    align-items: center;
+    display: flex;
+    font-size: var(--font-size-s);
+    gap: var(--space-s);
+
+    .icon {
+      font-size: var(--font-size-s);
+    }
+
+    &__page,
+    .icon {
+      color: var(--color-info);
+    }
+
+    &__subtitle {
+      color: var(--color-neutral-7);
+    }
+  }
+}
