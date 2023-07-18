@@ -38,10 +38,15 @@
 
       .phone-number {
         a {
-          &:active,
-          a:link {
+          &:link,
+          &:visited {
             color: var(--color-info);
             text-decoration: underline;
+          }
+
+          &:active,
+          &:hover {
+            text-decoration: none;
           }
         }
       }
