@@ -1,0 +1,8 @@
+.map-wrapper {
+  .leaflet-pane.leaflet-marker-pane {
+    img {
+      border-radius: var(--border-radius-circle);
+      border: var(--border-size-m) solid var(--color-neutral-0);
+    }
+  }
+}
