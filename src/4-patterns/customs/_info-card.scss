@@ -1,0 +1,27 @@
+.info_card {
+  display: flex;
+  flex-direction: column;
+
+  &__title,
+  &__subtitle {
+    font-weight: var(--font-bold);
+  }
+
+  &__title {
+    color: var(--color-neutral-8);
+    font-size: var(--font-size-base);
+  }
+
+  &__subtitle {
+    color: var(--color-neutral-9);
+    font-size: var(--font-size-h6);
+  }
+
+  &__content {
+    display: flex;
+    border-top: var(--border-size-s) solid var(--color-neutral-4);
+    flex-direction: column;
+    gap: var(--space-base);
+    padding-top: var(--space-base);
+  }
+}
