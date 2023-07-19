@@ -24,4 +24,10 @@ form {
     max-width: 100%;
     min-height: 175px;
   }
+
+  .form-control[data-textarea] {
+    height: auto;
+    padding: var(--space-base);
+    resize: vertical;
+  }
 }
