@@ -1,0 +1,16 @@
+.layout-order {
+  display: flex;
+  height: calc(100vh - var(--header-size));
+  gap: var(--space-l);
+
+  &__content {
+    min-width: 70vw;
+  }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: var(--space-m);
+  }
+}
