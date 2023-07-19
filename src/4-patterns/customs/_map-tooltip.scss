@@ -1,8 +1,11 @@
 .map-tooltip {
+  min-width: 150px;
+
   &__title {
     font-size: var(--font-size-base);
     font-weight: var(--font-bold);
     margin-bottom: var(--space-s);
+    white-space: nowrap;
   }
 
   &__title,
