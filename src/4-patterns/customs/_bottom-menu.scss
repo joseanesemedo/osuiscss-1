@@ -1,0 +1,23 @@
+.bottom-menu {
+  padding: var(--space-base);
+  margin-bottom: var(--space-base);
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      align-items: center;
+      color: var(--neutral-neutral-8);
+      display: flex;
+      flex-direction: column;
+      font-size: var(--font-size-s);
+      font-weight: var(--font-regular);
+      white-space: nowrap;
+
+      &.active {
+        color: var(--color-info);
+      }
+    }
+  }
+}
