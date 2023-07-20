@@ -1,7 +1,17 @@
 .layout-bottom-nav {
-  &__content {
-    padding-top: var(--header-size);
+  &__topbar {
+    box-shadow: var(--shadow-m);
+    height: var(--header-size);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
   }
+
+  // &__content {
+  //   padding-top: var(--header-size);
+  // }
 
   &__menu {
     background: var(--color-neutral-0);
