@@ -9,9 +9,9 @@
     z-index: 10;
   }
 
-  // &__content {
-  //   padding-top: var(--header-size);
-  // }
+  &__content {
+    padding: var(--header-size) var(--space-none);
+  }
 
   &__menu {
     background: var(--color-neutral-0);
