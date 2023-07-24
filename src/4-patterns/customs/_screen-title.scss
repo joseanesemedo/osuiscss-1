@@ -10,16 +10,5 @@
     align-items: center;
     display: flex;
     font-size: var(--font-size-s);
-    gap: var(--space-s);
-
-    &__page,
-    .icon {
-      color: var(--color-info);
-      font-size: var(--font-size-s);
-    }
-
-    &__subtitle {
-      color: var(--color-neutral-7);
-    }
   }
 }

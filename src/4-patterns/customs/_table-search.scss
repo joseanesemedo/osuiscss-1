@@ -4,6 +4,7 @@
   border-radius: var(--border-radius-medium);
   display: flex;
   padding: var(--space-base);
+  transition: transform 330ms ease-out;
 
   &__search {
     flex-grow: 1;
@@ -13,9 +14,23 @@
   &__actions {
     align-items: center;
     display: flex;
+
+    .tablet &,
+    .phone & {
+      align-items: stretch;
+      flex-direction: column;
+      row-gap: 20px;
+
+      .btn {
+        margin-left: var(--space-none);
+      }
+    }
   }
 
-  // .phone & {
-  //   flex-direction: column;
-  // }
+  .tablet &,
+  .phone & {
+    align-items: stretch;
+    flex-direction: column;
+    row-gap: 20px;
+  }
 }
