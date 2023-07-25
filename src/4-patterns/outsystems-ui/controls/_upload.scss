@@ -2,3 +2,9 @@
   color: var(--color-info);
   font-size: var(--font-size-h6);
 }
+
+.upload-link {
+  border: var(--border-none);
+  padding: var(--space-none);
+  margin-bottom: var(--space-none) !important;
+}

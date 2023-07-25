@@ -1,10 +1,10 @@
 .top-bar {
   align-items: center;
-  background: var(--color-neutral-0);
+  // background: var(--color-neutral-0);
   display: flex;
-  height: var(--header-size);
+  // height: var(--header-size);
   justify-content: space-between;
-  padding: var(--space-s) var(--space-base);
+  // padding: var(--space-s) var(--space-base);
 
   &__title {
     color: var(--color-info);

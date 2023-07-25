@@ -8,9 +8,29 @@
     top: 0;
     width: 100%;
     z-index: 10;
+
+    .phone & {
+      box-shadow: var(--shadow-m);
+      height: var(--header-size);
+      left: 0;
+      position: fixed;
+      padding: var(--space-s) var(--space-xl);
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
   }
 
   &__content {
-    padding-top: var(--header-size);
+    padding: var(--header-size) var(--space-none);
+  }
+
+  &__footer {
+    height: var(--bottom-nav-size);
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
   }
 }

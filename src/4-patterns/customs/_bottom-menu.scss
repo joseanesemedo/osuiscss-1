@@ -1,6 +1,14 @@
 .bottom-menu {
   padding: var(--space-base);
-  margin-bottom: var(--space-base);
+  background: var(--color-neutral-0);
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  height: var(--bottom-nav-size);
+  left: 0;
+  position: fixed;
+  // padding: var(--space-base);
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
 
   &__nav {
     display: flex;
