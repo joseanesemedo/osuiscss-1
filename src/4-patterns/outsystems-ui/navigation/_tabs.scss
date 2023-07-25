@@ -1,6 +1,10 @@
 .osui-tabs__header-item {
   color: var(--color-neutral-7);
-  width: 134.616px;
+
+  .desktop &,
+  .tablet & {
+    width: 134.616px;
+  }
 
   &.osui-tabs--is-active {
     color: var(--color-info);
