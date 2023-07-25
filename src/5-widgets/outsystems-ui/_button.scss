@@ -17,6 +17,11 @@
     border: var(--border-size-s) solid var(--color-info);
     color: var(--color-info);
   }
+
+  &-border {
+    border: var(--border-size-s) solid var(--color-neutral-8);
+    color: var(--color-neutral-8);
+  }
 }
 
 .button-group {
