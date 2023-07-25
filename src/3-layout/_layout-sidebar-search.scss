@@ -43,6 +43,10 @@
       flex-direction: column;
       min-width: 20vw;
       -servicestudio-min-width: 35vw;
+
+      .phone & {
+        display: none;
+      }
     }
 
     &__main {
