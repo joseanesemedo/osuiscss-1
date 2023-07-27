@@ -2,14 +2,26 @@
   display: flex;
   height: calc(100vh - var(--header-size));
 
+  .phone & {
+    flex-direction: column;
+  }
+
   &__sidebar {
     background: var(--color-info);
     display: flex;
     flex-direction: column;
     min-width: 15vw;
+
+    .phone & {
+      align-items: center;
+    }
   }
 
   &__content {
     flex-grow: 1;
+
+    .phone & {
+      padding-bottom: var(--bottom-nav-size);
+    }
   }
 }

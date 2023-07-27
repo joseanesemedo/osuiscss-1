@@ -9,6 +9,11 @@
   &__search {
     flex-grow: 1;
     margin-right: var(--space-base);
+
+    .tablet &,
+    .phone & {
+      margin-right: var(--space-none);
+    }
   }
 
   &__actions {

@@ -9,6 +9,10 @@
   width: 200px;
   white-space: nowrap;
 
+  .phone & {
+    width: 300px;
+  }
+
   &__pic {
     border-radius: var(--border-radius-circle);
     height: var(--space-xl);
