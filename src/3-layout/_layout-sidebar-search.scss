@@ -38,14 +38,21 @@
     display: flex;
     height: calc(100vh - (var(--header-size) + var(--searchbar-height)));
 
+    .tablet &,
+    .phone & {
+      flex-direction: column;
+    }
+
     &__sidebar {
       display: flex;
       flex-direction: column;
       min-width: 20vw;
       -servicestudio-min-width: 35vw;
+      padding: var(--space-m) var(--space-xl);
 
+      .tablet &,
       .phone & {
-        display: none;
+        flex-direction: row;
       }
     }
 

@@ -16,6 +16,13 @@
     }
   }
 
+  .tablet &,
+  .phone & {
+    align-items: stretch;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
   &__actions {
     align-items: center;
     display: flex;
@@ -30,17 +37,5 @@
         margin-left: var(--space-none);
       }
     }
-  }
-
-  .tablet &,
-  .phone & {
-    align-items: stretch;
-    flex-direction: column;
-    row-gap: 20px;
-    // display: none;
-
-    // .visible {
-    //   display: flex;
-    // }
   }
 }

@@ -10,7 +10,7 @@ form {
   .dropdown-container > select.dropdown-display:hover,
   .dropdown-container > div.dropdown-display:focus,
   .dropdown-container > select.dropdown-display:focus {
-    border: none;
+    border: var(--border-size-none);
     border-bottom: var(--border-size-s) solid var(--color-neutral-6);
     border-radius: var(--border-radius-none);
   }
