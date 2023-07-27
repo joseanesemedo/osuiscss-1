@@ -41,6 +41,7 @@
     .tablet &,
     .phone & {
       flex-direction: column;
+      overflow: hidden;
     }
 
     &__sidebar {
@@ -52,7 +53,10 @@
 
       .tablet &,
       .phone & {
+        column-gap: var(--space-base);
         flex-direction: row;
+        overflow: auto;
+        padding: var(--space-s);
       }
     }
 

@@ -10,15 +10,38 @@
   min-width: 268px;
   padding: var(--space-m);
 
+  .tablet &,
+  .phone & {
+    padding: var(--space-s);
+    margin-bottom: var(--space-none);
+  }
+
   &__icon {
     font-size: var(--font-size-h3);
+
+    .tablet &,
+    .phone & {
+      font-size: var(--font-size-h6);
+    }
   }
 
   &__content {
+    .tablet &,
+    .phone & {
+      align-items: center;
+      display: flex;
+      column-gap: var(--space-s);
+    }
+
     &__value {
       font-size: var(--font-size-h3);
       font-weight: var(--font-bold);
       line-height: var(--line-height-h2);
+
+      .tablet &,
+      .phone & {
+        font-size: var(--font-size-h6);
+      }
     }
 
     &__title {
@@ -26,6 +49,11 @@
       font-weight: var(--font-semi-bold);
       line-height: var(--line-height-h4);
       white-space: nowrap;
+
+      .tablet &,
+      .phone & {
+        font-size: var(--font-size-base);
+      }
     }
   }
 }
