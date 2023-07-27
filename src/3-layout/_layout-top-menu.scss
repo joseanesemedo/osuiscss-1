@@ -3,8 +3,8 @@
     background: var(--color-neutral-0);
     height: var(--header-size);
     left: 0;
-    position: fixed;
     padding: var(--space-s) var(--space-xl);
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
@@ -13,8 +13,8 @@
       box-shadow: var(--shadow-m);
       height: var(--header-size);
       left: 0;
-      position: fixed;
       padding: var(--space-s) var(--space-xl);
+      position: fixed;
       top: 0;
       width: 100%;
       z-index: 10;
@@ -26,10 +26,10 @@
   }
 
   &__footer {
+    bottom: 0;
     height: var(--bottom-nav-size);
     left: 0;
     position: fixed;
-    bottom: 0;
     width: 100%;
     z-index: 10;
   }
