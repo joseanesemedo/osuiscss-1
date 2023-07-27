@@ -2,6 +2,7 @@
   display: flex;
   height: calc(100vh - var(--header-size));
 
+  .tablet &,
   .phone & {
     flex-direction: column;
   }
@@ -10,16 +11,37 @@
     background: var(--color-info);
     display: flex;
     flex-direction: column;
-    min-width: 15vw;
+    // min-width: 15vw;
+    padding: var(--space-l);
 
+    .tablet &,
     .phone & {
-      align-items: center;
+      padding: var(--space-m) var(--space-base);
+    }
+
+    &-title {
+      color: var(--color-neutral-0);
+      display: block;
+      font-size: var(--font-szie-h4);
+      margin-bottom: var(--space-m);
+    }
+
+    &-sidebarcontent {
+      display: flex;
+      flex-direction: column;
+
+      .tablet &,
+      .phone & {
+        align-items: center;
+        flex-direction: row;
+      }
     }
   }
 
   &__content {
     flex-grow: 1;
 
+    .tablet &,
     .phone & {
       padding-bottom: var(--bottom-nav-size);
     }
