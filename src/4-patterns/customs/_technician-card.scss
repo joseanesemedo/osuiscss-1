@@ -9,8 +9,9 @@
   width: 200px;
   white-space: nowrap;
 
+  .tablet &,
   .phone & {
-    width: 300px;
+    margin-bottom: var(--space-none);
   }
 
   &__pic {

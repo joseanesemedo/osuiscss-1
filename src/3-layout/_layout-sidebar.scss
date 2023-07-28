@@ -16,7 +16,7 @@
 
     .tablet &,
     .phone & {
-      padding: var(--space-m) var(--space-base);
+      padding: var(--space-base);
     }
 
     &-title {
@@ -33,6 +33,7 @@
       .tablet &,
       .phone & {
         align-items: center;
+        column-gap: var(--space-base);
         flex-direction: row;
       }
     }

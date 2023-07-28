@@ -53,7 +53,7 @@
 
       .tablet &,
       .phone & {
-        column-gap: var(--space-base);
+        column-gap: var(--space-m);
         flex-direction: row;
         overflow: auto;
         padding: var(--space-s);
