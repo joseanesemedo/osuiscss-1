@@ -12,6 +12,7 @@
 
     .tablet &,
     .phone & {
+      flex-grow: 0;
       margin-right: var(--space-none);
     }
   }
@@ -20,18 +21,22 @@
   .phone & {
     align-items: stretch;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: var(--space-base);
   }
 
   &__actions {
     align-items: center;
     display: flex;
 
+    .dropdown-container {
+      margin-left: 0;
+    }
+
     .tablet &,
     .phone & {
       align-items: stretch;
       flex-direction: column;
-      row-gap: 20px;
+      row-gap: var(--space-base);
 
       .btn {
         margin-left: var(--space-none);

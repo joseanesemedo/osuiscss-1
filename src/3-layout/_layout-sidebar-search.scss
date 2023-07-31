@@ -27,9 +27,22 @@
       height: 100%;
       min-width: 160px;
       padding-left: var(--space-m);
+      overflow: hidden;
+
+      .tablet &,
+      .phone & {
+        padding-left: var(--space-s);
+        flex-grow: 1;
+        gap: var(--space-none);
+      }
 
       .icon {
         font-size: var(--font-size-base);
+
+        .tablet &,
+        .phone & {
+          display: none;
+        }
       }
     }
   }
